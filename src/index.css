@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+  
+}
+.App-text
+{
+  text-shadow: black;
+}
+
+
+.App-header {
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  left: -1px;
+  padding-left: 30px;
+  color: palevioletred;
+  display: inline-flex;
+  justify-items: left;
+  margin: 10px;
+}
+
+.buttons{ 
+  margin-top: 40px; 
+  background-color: #e7e7e7;
+  border:none;
+  color:black;
+  padding:15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: flex;
+  justify-items:center;
+  justify-content:space-between;
+}
+
+.buttons-icon-with-text {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-icon-with-text span {
+  margin-left: 8px;
+}
+.search{
+  margin-top: 45px;
+  max-width: 300px;
+  padding-left:250px;
+ 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.searches{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-body p {
+  margin:0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom:20px;
+}
+
+.footer{
+  margin-top: 40px; 
+  background-color: #e7e7e7;
+  border:none;
+  color:black;
+  padding:15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: flex;
+  justify-items:center;
+  justify-content:space-evenly;
+}
